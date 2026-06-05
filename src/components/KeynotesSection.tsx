@@ -58,7 +58,7 @@ export default function KeynotesSection() {
             </p>
 
             <div className={`${animationClasses.reveal} ${isInView ? animationClasses.visible : ''}`} style={getRevealDelayStyle(320)}>
-             <Link to="/keynotes" > <Button variant="primary">View Keynote Topics</Button></Link>
+             <Link to="/keynote-topics"><Button variant="primary">View Keynote Topics</Button></Link>
             </div>
           </div>
 

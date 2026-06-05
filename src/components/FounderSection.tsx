@@ -1,6 +1,7 @@
 import Button from './Button'
 import { useInView } from '../hooks/useInView'
 import { animationClasses, getRevealDelayStyle } from '../lib/animations'
+import { Link } from 'react-router-dom'
 
 export default function FounderSection() {
   const { ref, isInView } = useInView<HTMLElement>()
@@ -26,7 +27,7 @@ export default function FounderSection() {
               People connect with Gina because she brings authenticity, wisdom, and lived experience into her work. Her audiences often leave feeling seen, encouraged, challenged, and equipped with something meaningful they can use.
             </p>
 
-            <Button variant="primary">Learn More About Gina</Button>
+            <Link to="/about"><Button variant="primary">Learn More About Gina</Button></Link>
           </div>
 
           {/* Right Column - Image */}
