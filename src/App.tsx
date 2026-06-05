@@ -4,10 +4,12 @@ import Footer from './components/Footer'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import KeynotePage from './pages/KeynotePage'
+import SmoothScroll from './components/SmoothScroll'
 
 function App() {
   return (
     <Router>
+      <SmoothScroll />
       <div className="min-h-screen bg-white flex flex-col">
         <Navigation />
         <main className="flex-grow">
