@@ -177,7 +177,9 @@ export default function AboutPage() {
                 }`}
                 style={{ transitionDelay: '600ms' }}
               >
-                <Button variant="primary">Invite Gina to Speak</Button>
+                <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer">
+                  <Button variant="primary">Invite Gina to Speak</Button>
+                </a>
               </div>
             </div>
           </div>
@@ -335,8 +337,11 @@ export default function AboutPage() {
             <Button variant="primary">Explore Keynote Topics</Button>
           </div>
 
-          <p
-            className={`text-primary text-sm md:text-base mt-8 transition-all duration-700 ${
+          <a
+            href="mailto:gina@ginagspeaks.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`text-primary text-sm md:text-base mt-8 transition-all duration-700 flex flex-col items-center hover:text-primary/80 ${
               ctaRef.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'
             }`}
             style={{ transitionDelay: '250ms' }}
@@ -344,8 +349,8 @@ export default function AboutPage() {
             <span className="flex justify-center items-center">
               <Mail size={14} />
             </span>
-            info@ginagspeaks.org
-          </p>
+            gina@ginagspeaks.org
+          </a>
         </div>
       </section>
     </div>

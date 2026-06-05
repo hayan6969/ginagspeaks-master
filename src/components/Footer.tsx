@@ -26,7 +26,7 @@ export default function Footer() {
           {/* Contact Section */}
           <div>
             <h4 className="font-bold text-sm text-[#FFFFFF66] tracking-wide mb-4 uppercase ">Get in Touch</h4>
-            <p className="text-sm text-[#FFFFFF99] mb-2">info@ginaspeaks.org</p>
+            <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className="text-sm text-[#FFFFFF99] mb-2 hover:text-primary transition-colors block">gina@ginagspeaks.org</a>
             <p className="text-sm text-[#FFFFFF99] leading-relaxed">
               We look forward to partnering with you to create impactful, transformative experiences.
             </p>

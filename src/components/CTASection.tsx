@@ -42,14 +42,16 @@ export default function CTASection() {
         </div>
 
         {/* CTA Button */}
-        <Button variant="primary" className={`${animationClasses.reveal} ${isInView ? animationClasses.visible : ''} mb-4 tracking-wider`} style={getRevealDelayStyle(840)}>
-          Start the Conversation
-        </Button>
+        <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className={`${animationClasses.reveal} ${isInView ? animationClasses.visible : ''} inline-block mb-4`} style={getRevealDelayStyle(840)}>
+          <Button variant="primary" className="tracking-wider">
+            Start the Conversation
+          </Button>
+        </a>
 
         {/* Contact Info */}
-        <a href="mailto:info@ginaspeaks.org" className={`${animationClasses.reveal} ${isInView ? animationClasses.visible : ''} block text-sm text-[#3C929D] mt-4 hover:text-primary transition-colors`} style={getRevealDelayStyle(960)}>
+        <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className={`${animationClasses.reveal} ${isInView ? animationClasses.visible : ''} block text-sm text-[#3C929D] mt-4 hover:text-primary transition-colors`} style={getRevealDelayStyle(960)}>
           {/* <MailIcon className="inline-block mr-2 " size={16} /> */}✉
-          info@ginaspeaks.org
+          gina@ginagspeaks.org
         </a>
       </div>
     </section>

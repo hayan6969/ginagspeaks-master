@@ -265,21 +265,23 @@ useEffect(() => {
         }`}
         style={{ transitionDelay: '600ms' }}
       >
-        <Button
-          variant="primary"
-          size="lg"
-          className="w-full sm:w-auto font-body"
-        >
-          Book Gina to Keynotes
-        </Button>
+        <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+          <Button
+            variant="primary"
+            size="lg"
+            className="w-full sm:w-auto font-body"
+          >
+            Book Gina to Keynotes
+          </Button>
+        </a>
 
-        <button className="flex items-center gap-2 px-6 py-3 font-body font-medium text-[#FFFFFFBF] underline underline-offset-4 transition-colors group w-full sm:w-auto justify-center sm:justify-start">
+        <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 font-body font-medium text-[#FFFFFFBF] underline underline-offset-4 transition-colors group w-full sm:w-auto justify-center sm:justify-start">
           Start a Conversation
           <ArrowRight
             size={18}
             className=" translate-y-[1px] group-hover:translate-x-1 transition-transform"
           />
-        </button>
+        </a>
       </div>
 
     </div>
@@ -454,14 +456,16 @@ useEffect(() => {
                 Gina&apos;s process is collaborative, intentional, and built around your needs. Reach out and let&apos;s find the right experience for your audience.
               </p>
 
-              <Button variant="primary" size="lg" className="mb-8 tracking-wide font-body">
-                Reach Out to Gina
-              </Button>
+              <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className="inline-block mb-8">
+                <Button variant="primary" size="lg" className="tracking-wide font-body">
+                  Reach Out to Gina
+                </Button>
+              </a>
 
               <p className="text-gray-400 text-sm">
-                <a href="mailto:info@ginaspeaks.org" className=" text-primary flex items-center  hover:text-primary/80 transition-colors">
+                <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer" className=" text-primary flex items-center  hover:text-primary/80 transition-colors">
                   <span className='   inline-flex mr-1 '><MailIcon size={14} /></span>
-                  info@ginaspeaks.org
+                  gina@ginagspeaks.org
                 </a>
               </p>
             </div>
