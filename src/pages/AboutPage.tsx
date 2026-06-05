@@ -1,6 +1,7 @@
 import { Mail } from 'lucide-react'
 import Button from '../components/Button'
 import { useEffect, useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function useInView(threshold = 0.15) {
   const ref = useRef<HTMLDivElement | null>(null)
@@ -334,7 +335,7 @@ export default function AboutPage() {
             }`}
             style={{ transitionDelay: '150ms' }}
           >
-            <Button variant="primary">Explore Keynote Topics</Button>
+            <Link to="/keynote-topics"><Button variant="primary">Explore Keynote Topics</Button></Link>
           </div>
 
           <a

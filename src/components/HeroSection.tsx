@@ -107,7 +107,7 @@ export default function HeroSection() {
               <a href="mailto:gina@ginagspeaks.org" target="_blank" rel="noopener noreferrer">
                 <Button variant="primary">Book Gina to Speak</Button>
               </a>
-              <Link to="/keynotes" >
+              <Link to="/keynote-topics">
               <button className="px-6 py-3 text-primary font-medium  transition-all flex items-center gap-2 group">
                 <span className="hover:underline underline-offset-4">                Explore Keynotes </span><span className="group-hover:translate-x-1 transition-transform">→</span>
               </button></Link>
